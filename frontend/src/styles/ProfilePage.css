@@ -1,0 +1,94 @@
+/* ProfilePage.css */
+
+/* Centering the profile content */
+.profile-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f5f5f5; /* Light background color */
+}
+
+.profile-card {
+  background-color: #fff;
+  border: 2px solid #ddd; /* Subtle border around the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  width: 400px; /* Decreased width */
+  height: 400px; /* Decreased height to make it square-like */
+  padding: 30px; /* Adjusted padding */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  transform: translateY(-20px); /* Slight upward shift */
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-card:hover {
+  transform: translateY(0);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* More prominent shadow on hover */
+}
+
+/* Styling the error message */
+.error-message {
+  color: red;
+  font-size: 18px; /* Increased font size */
+  margin-bottom: 10px;
+}
+
+/* Styling the profile information */
+.profile-info p {
+  font-size: 20px; /* Increased font size */
+  color: #333;
+  margin: 15px 0; /* Increased margin between items */
+}
+
+/* Button styling */
+.review-btn,
+.add-review-btn {
+  background-color: #ff7b7b;
+  color: white;
+  padding: 14px 30px; /* Increased padding */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px; /* Increased font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.review-btn:hover,
+.add-review-btn:hover {
+  background-color: #ff4747;
+}
+
+.profile-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-review-btn, .logout-btn {
+  margin: 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+
+.logout-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}
+

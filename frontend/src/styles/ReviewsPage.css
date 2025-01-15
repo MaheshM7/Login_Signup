@@ -1,0 +1,25 @@
+/* Styling for the reviews page container */
+.reviews-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f4f7fb;  /* Light background color */
+  min-height: 100vh;
+}
+
+/* Heading style */
+.reviews-page h2 {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+/* Styling for empty state when no reviews */
+.reviews-page p {
+  font-size: 1.2rem;
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+}

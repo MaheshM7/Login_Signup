@@ -1,0 +1,108 @@
+.add-review-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* Full viewport height */
+  background-color: #f4f7fa;
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 50px;
+  width: 600px;  /* Increased container width */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center content inside */
+}
+
+h2 {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+textarea.review-text {
+  width: 100%;
+  height: 180px;  /* Increased height for more space */
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center the rating box */
+  margin-bottom: 20px;
+}
+
+.rating label {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.rating input {
+  width: 80%;  /* Keep the previous width */
+  font-size: 28px;  /* Increased font size for rating input */
+  padding: 10px;  /* Increased padding for bigger size */
+  padding-left: 40px;  /* Added left padding */
+  padding-right: 40px;  /* Added right padding */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  background-color: #ff7b7b;  /* Red color for the button */
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.submit-btn:hover {
+  background-color: #ff5e5e;  /* Darker red for hover effect */
+  transform: scale(1.05);  /* Slightly increase the size on hover */
+}
+
+.success-message,
+.error-message {
+  text-align: center;
+  font-size: 16px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: red;
+}
+
+.go-to-reviews-btn {
+  background-color: #ff5e5e;  /* Green color for the button */
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 100%;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.go-to-reviews-btn:hover {
+  background-color: #ff3e3e;  /* Darker red for hover effect */
+  transform: scale(1.05);  /* Slightly increase the size on hover */
+}
